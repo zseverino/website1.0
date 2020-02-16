@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>MyPortfolio</title>
+  <title>Zack Severino</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -27,17 +27,30 @@
 
 <body>
 
-<nav class="navbar navbar-light bg-secondary fixed-top">
-  <div class="container align-items-center justify-content-between">
-    <div class="col">
-      <a class="navbar-brand" href="index.html">Zack Severino</a>
+<div class="collapse navbar-collapse bg-secondary custom-navmenu" id="main-navbar">
+  <div class="container py-2 py-md-5">
+    <div class="row align-items-center">
+      <div class="col">
+        <a href="#main" class="readmore" >About</a>
+      </div>
+      <div class="col">
+        <a href="#Experience" class="readmore">Experience</a>
+      </div>
+      <div class="col">
+        <a href="#Contact" class="readmore">Contact</a>
+      </div>
     </div>
+  </div>
+</div>
 
-    <div class="col align">
-      <a href="#main" class="readmore"> About </a>
-      <a href="#Experience" class="readmore"> Experience </a>
-      <a href="#Contact" class="readmore"> Contact </a>
-    </div>
+<nav class="navbar navbar-light align-items-center custom-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Zack Severino</a>
+
+    <a href="#" class="burger" data-toggle="collapse" data-target="#main-navbar">
+      <span></span>
+    </a>
+
   </div>
 </nav>
 
